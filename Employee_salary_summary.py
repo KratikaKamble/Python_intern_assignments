@@ -1,0 +1,11 @@
+emp_name=input("Enter your name:")
+emp_id=input("Enter your ID:")
+basic_salary=float(input("Enter your basic salary:"))
+HRA=basic_salary*0.20
+DA=basic_salary*0.10
+PF=basic_salary*0.12
+net_salary=basic_salary+HRA+DA-PF
+print("HRA Value=",HRA)
+print("DA Value=",DA)
+print("PF Value=",PF)
+print("Your net salary =",net_salary)
