@@ -1,0 +1,10 @@
+#checking the memory location
+a=(10,20,30,40)
+b=(50,60,40,10)
+c=a
+print("a values are=",a)
+print("b values are=",b)
+print("c values are=",c)
+print("Do a represents b? ",a is b)
+print("Do a represents c? ",a is c)
+print("Do a does not represents b? ",a is not b)
