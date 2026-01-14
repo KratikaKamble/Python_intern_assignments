@@ -23,4 +23,15 @@ def emp_details():
         print("Warning")
     else:
         print("Irregular")
+    def cal_sal(sal,count):
+        HRA = sal*0.20
+        DA = sal*0.10
+        PF = sal*0.12
+        if count<3:
+            sal=sal-PF
+            print(sal)
+        else:
+            sal=HRA+DA-PF
+            print(sal)
+    cal_sal(sal,count)
 emp_details()
